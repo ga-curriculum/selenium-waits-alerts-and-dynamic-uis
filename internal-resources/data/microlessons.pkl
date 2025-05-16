@@ -9,23 +9,30 @@ setup = new Template.Microlesson {
   videoUrl = ""
 }
 
-concepts = new Template.Microlesson {
-  friendlyName = "Concepts"
-  dirName = "concepts"
+understandingImplicitAndExplicitWaits = new Template.Microlesson {
+  friendlyName = "Understanding Implicit and Explicit Waits"
+  dirName = "understanding-implicit-and-explicit-waits"
   type = "Content"
   videoUrl = ""
 }
 
-microlesson01 = new Template.Microlesson {
-  friendlyName = "Microlesson 01"
-  dirName = "microlesson-01"
+usingWebdriverwaitAndExpectedConditions = new Template.Microlesson {
+  friendlyName = "Using WebDriverWait and Expected Conditions"
+  dirName = "using-webdriverwait-and-expected-conditions"
   type = "Content"
   videoUrl = ""
 }
 
-microlesson02 = new Template.Microlesson {
-  friendlyName = "Microlesson 02"
-  dirName = "microlesson-02"
+handlingJavascriptAlertsAndDialogs = new Template.Microlesson {
+  friendlyName = "Handling JavaScript Alerts and Dialogs"
+  dirName = "handling-javascript-alerts-and-dialogs"
+  type = "Content"
+  videoUrl = ""
+}
+
+advancedStrategiesForDynamicContent = new Template.Microlesson {
+  friendlyName = "Advanced Strategies for Dynamic Content"
+  dirName = "advanced-strategies-for-dynamic-content"
   type = "Content"
   videoUrl = ""
 }

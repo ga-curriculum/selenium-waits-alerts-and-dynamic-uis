@@ -1,5 +1,5 @@
 <h1>
-  <span class="headline">[tktk Headline]</span>
+  <span class="headline">Selenium: Waits, Alerts and Dynamic UIs</span>
   <span class="subhead">Release Notes</span>
 </h1>
 
