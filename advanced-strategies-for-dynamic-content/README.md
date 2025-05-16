@@ -1,5 +1,5 @@
 <h1>
-  <span class="headline">Selenium: Waits, Alerts and Dynamic UIs</span>
+  <span class="headline">Selenium: Waits, Alerts, and Dynamic UIs</span>
   <span class="subhead">Advanced Strategies for Dynamic Content</span>
 </h1>
 

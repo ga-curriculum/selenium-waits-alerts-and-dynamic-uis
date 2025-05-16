@@ -1,6 +1,6 @@
 <h1>
   <span class="prefix"></span>
-  <span class="headline">Selenium: Waits, Alerts and Dynamic UIs</span>
+  <span class="headline">Selenium: Waits, Alerts, and Dynamic UIs</span>
 </h1>
 
 ## About

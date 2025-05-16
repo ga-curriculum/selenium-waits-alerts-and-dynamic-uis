@@ -1,5 +1,5 @@
 <h1>
-  <span class="headline">Selenium: Waits, Alerts and Dynamic UIs</span>
+  <span class="headline">Selenium: Waits, Alerts, and Dynamic UIs</span>
   <span class="subhead">Handling JavaScript Alerts and Dialogs</span>
 </h1>
 
@@ -219,7 +219,7 @@ print("Dialogs handled successfully.")
 driver.quit()
 ```
 
-Write out, test and discuss each with your group:
+Write out, test, and discuss each with your group:
 
 #### 1. Click the **Clear Cart** button
 
