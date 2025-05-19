@@ -5,7 +5,7 @@
 
 ## About
 
-This module introduces learners to the techniques required for interacting with modern, dynamic web pages using Selenium. Students will learn how to synchronize with browser behavior using implicit and explicit waits, and how to interact with JavaScript alerts and popups using switch_to.alert. They'll also explore strategies for dealing with UI elements that load or change after a delay, such as modals, spinners, or content injected via JavaScript.
+This module introduces learners to the techniques required for interacting with modern, dynamic web pages using Selenium. Students will learn how to synchronize with browser behavior using implicit and explicit waits, and how to interact with JavaScript alerts and popups using `switch_to.alert`. They'll also explore strategies for dealing with UI elements that load or change after a delay, such as modals, spinners, or content injected via JavaScript.
 
 The goal is to help students go beyond static page interactions and gain confidence automating more realistic, time-sensitive browser workflows.
 
