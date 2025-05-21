@@ -72,7 +72,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 driver = webdriver.Chrome()
-driver.get("file:///path/to/your/index.html")  # Replace with your file path
+driver.get("file:///Users/username/path/to/example_file.html")  # Replace with the full absolute path to your local HTML file
 
 wait = WebDriverWait(driver, 10)
 

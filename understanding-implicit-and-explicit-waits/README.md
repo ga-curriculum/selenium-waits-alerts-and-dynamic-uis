@@ -137,7 +137,7 @@ import time
 
 driver = webdriver.Chrome()
 driver.implicitly_wait(2)  # Global wait
-driver.get("file:///path/to/your/index.html")  # Update to your file path
+driver.get("file:///Users/username/path/to/example_file.html")  # Replace with the full absolute path to your local HTML file
 
 # Try to click the dismiss button as soon as the modal may appear
 dismiss_button = driver.find_element(By.ID, "dismiss-welcome")
@@ -164,7 +164,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 driver = webdriver.Chrome()
-driver.get("file:///path/to/your/index.html")  # Update to your file path
+driver.get("file:///Users/username/path/to/example_file.html")  # Replace with the full absolute path to your local HTML file
 
 # Wait up to 6 seconds for the modal dismiss button to become clickable
 wait = WebDriverWait(driver, 6)

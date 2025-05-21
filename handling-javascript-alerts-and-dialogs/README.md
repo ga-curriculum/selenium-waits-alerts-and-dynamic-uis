@@ -117,11 +117,9 @@ driver = webdriver.Chrome()
 driver.get('https://the-internet.herokuapp.com/javascript_alerts')
 
 # Trigger the alert by clicking the appropriate button
-
 driver.find_element('css selector', "button[onclick='jsAlert()']").click()
 
 # Switch to the alert and accept it
-
 alert = driver.switch_to.alert
 print(alert.text) # Prints: "I am a JS Alert"
 alert.accept() # Dismisses the alert and lets your script continue
@@ -207,7 +205,7 @@ from selenium.webdriver.common.by import By
 import time
 
 driver = webdriver.Chrome()
-driver.get("file:///path/to/your/index.html") # Replace with your actual file path
+driver.get("file:///Users/username/path/to/example_file.html")  # Replace with the full absolute path to your local HTML file
 
 # 1. Handle alert
 

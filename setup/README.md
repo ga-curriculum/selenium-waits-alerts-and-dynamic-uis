@@ -353,29 +353,19 @@ document.addEventListener('DOMContentLoaded', () => {
 ```python
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-from selenium.webdriver.chrome.service import Service
 
-# Replace with your actual path to chromedriver
-chromedriver_path = "/Users/username/Downloads/chromedriver"
-service = Service(executable_path=chromedriver_path)
-driver = webdriver.Chrome(service=service)
+driver = webdriver.Chrome()
 
 # Replace with the full path to your index.html file
-# Example (macOS): "file:///Users/yourname/Desktop/selenium-interacting-with-elements/index.html"
-# Example (Windows): "file:///C:/Users/yourname/Desktop/selenium-interacting-with-elements/index.html"
-driver.get("file:///absolute/path/to/index.html")
+# Example (macOS): "file:///Users/yourname/Desktop/selenium-waits-alerts-and-dynamic-uis/index.html"
+# Example (Windows): "file:///C:/Users/yourname/Desktop/selenium-waits-alerts-and-dynamic-uis/index.html"
+driver.get("file:///Users/username/path/to/example_file.html")  # Replace with the full absolute path to your local HTML file
 
 
 # Automate browser actions here
 
 driver.quit()
 ```
-
-> 💡 Tip: If ChromeDriver is already in your system PATH, you can skip the `Service` setup and just write:
->
-> ```python
-> driver = webdriver.Chrome()
-> ```
 
 ## Setup Complete!
 
